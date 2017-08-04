@@ -145,20 +145,20 @@ function channelGenerate(){
         html3 += '<img src="';
         html3 += data[k].stream.logo;
         html3 += ' " height="42">';
-        html3 += '<a href="';
+        html3 += '<span class="streamName"> <a href="';
         html3 += 'https://www.twitch.tv/';
         html3 += data[k].stream.name;
         html3 += '">';
         html3 += data[k].stream.display_name;
-        html3 += '</a>';
+        html3 += '</a></span>';
         html3 += data[k].stream.status;
       } else {
-        html3 += '<a href="';
+        html3 += '<span class="streamName"><a href="';
         html3 += 'https://www.twitch.tv/';
         html3 += data[k].display_name;
         html3 += '">';
         html3 += data[k].display_name;
-        html3 += '</a>';
+        html3 += '</a></span>';
         html3 += '<span>Offline</span>';
       }
     }

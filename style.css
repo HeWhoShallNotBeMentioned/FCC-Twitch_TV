@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+
+img {
+  border-radius: 50%;
+}
+h1 {
+  background-color: #b2d9fb;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.streamName {
+  padding-right: 10px;
+}
+
+.channels {
+  background-color: #c4b3bb;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.usersDiv {
+  background-color: #bae8e7;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.chanTitle {
+  background-color: #f7ae88;
+  border-radius: 10px;
+  padding: 5px 0;
+}
+
+.userTitle {
+  background-color: #f6ca76;
+  border-radius: 10px;
+  padding: 5px 0;
+}
